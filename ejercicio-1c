@@ -1,7 +1,0 @@
-1. Aparecen números diferentes cada vez puesto que el id del proceso cambia cada vez que ejecutamos el programa.
-
-2. Aparecen dos números distintos puesto que el fork genera un nuevo proceso y este tiene un id diferente al momento de obtenerlo con la instrucción getpid.
-
-3. Estos son iguales puesto que pertenecen al mismo proceso.
-
-4. El primer proceso en la lista es el init. Este es un proceso daemon que inicializa el sistema operativo durante el booting. Este es arrancado por el kernel durante el proceso de booting.
